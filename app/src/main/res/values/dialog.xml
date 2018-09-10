@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dialog 主题 -->
+    <style name="Animation.Dialog" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/base_dialog_enter</item>
+        <!-- //进入时的动画 -->
+        <item name="android:windowExitAnimation">@anim/base_dialog_exit</item>
+        <!-- //退出时的动画 -->
+    </style>
+
+    <style name="Dialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog</item>
+        <item name="android:windowFrame">@null</item>
+        <!--边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--半透明-->
+
+    </style>
+
+    <style name="Dialog.Loadding" parent="Dialog">
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--模糊-->
+    </style>
+
+    <style name="Animation.Dialog.progress" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_progress_anim_enter</item>
+        <!-- //进入时的动画 -->
+        <item name="android:windowExitAnimation">@anim/dialog_progress_anim_exit</item>
+        <!-- //退出时的动画 -->
+    </style>
+
+    <style name="Dialog.Progress" parent="Dialog">
+        <item name="android:windowAnimationStyle">@style/Animation.Dialog.progress</item>
+    </style>
+    <!--透明-->
+    <style name="Dialog.Translucent" parent="Dialog">
+        <item name="android:windowFullscreen">true</item><!--全屏-->
+        <item name="android:backgroundDimEnabled">false</item><!--背景为亮的-->
+        <item name="android:windowBackground">@color/translucent</item>
+    </style>
+</resources>

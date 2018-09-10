@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_color">#ffffff</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="translucent">#00000000</color>
+    <!--main-->
+    <color name="main_black">#ff1f1a17</color>
+    <color name="main_red">#fffd5a5a</color>
+    <color name="main_gray">#ff768791</color>
+    <color name="main_gray2">#f4f5f7</color>
+
+    <!--white-->
+    <color name="white">#ffffff</color>
+    <color name="white_90">#e5ffffff</color>
+    <!--gray-->
+    <color name="gray">#ffcccccc</color>
+    <color name="gray_cc">#ffcccccc</color>
+    <color name="gray_ee">#ffeeeeee</color>
+    <color name="gray_99">#ff999999</color>
+    <color name="gray_66">#ff666666</color>
+    <color name="gray_text">#ff777777</color>
+    <!--red-->
+    <color name="red">#ff0000</color>
+    <!--black-->
+    <color name="black">#ff000000</color>
+    <color name="clr_divide">#E6E6E6</color>
+    <!--SwipeRefreshLayout-->
+    <color name="SwipeRefreshLayout_1">#ffe7b404</color>
+    <color name="SwipeRefreshLayout_2">#ffEA4335</color>
+    <color name="SwipeRefreshLayout_3">#ff34A853</color>
+    <color name="SwipeRefreshLayout_4">#ffFBBC05</color>
+</resources>

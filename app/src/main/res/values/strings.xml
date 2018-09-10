@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">鹿角庄</string>
+
+
+    <!--****************************导航名称********************************-->
+    <string name="home">首页</string>
+    <string name="collect">收藏</string>
+    <string name="message">消息</string>
+    <string name="my">我的</string>
+
+    <string name="loadding">  加载中...</string>
+    <string name="snackbar_action">关闭</string>
+    <string name="autoloadding_zhunbei">  准备加载</string>
+    <string name="autoloadding_no_data">没有数据可以加载</string>
+    <string name="autoloadding_comple_data">共为您加载 %1$d 条数据</string>
+    <string name="autoloadding_failure">加载失败</string>
+    <string name="no_data">亲,数据空空如也</string>
+    <string name="http_request_failure">亲。。。加载失败</string>
+    <string name="no_data_dingdan"> 亲,您的订单空空如也...</string>
+    <string name="loadd_failure"> 页面加载失败</string>
+    <string name="app_name_letter">lujiaozhuang</string>
+    <string name="home_search_hint">商品名,品牌或功效</string>
+
+</resources>
